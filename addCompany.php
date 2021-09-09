@@ -9,7 +9,9 @@ $tipas_id = intval($_GET["tipas_id"]);
 
 //MEs galime daryt ka norim t.y vykdyti INSERT sql uzklausa
 
-$sql = "INSERT INTO `imones`(`pavadinimas`, `aprasymas`, `tipas_id`) VALUES ('$pavadinimas','$aprasymas',$tipas_id)";
+$sql = "INSERT INTO `imones`(`pavadinimas`, `aprasymas`, `tipas_id`) 
+VALUES ('$pavadinimas','$aprasymas',$tipas_id)";
+
 if(mysqli_query($conn, $sql)) {
 
     echo '<div class="alert alert-success" role="alert">';
