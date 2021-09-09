@@ -13,16 +13,17 @@
 <body>
 
     <div class="container">
-        
-        <button id="create"> Create New Client </button>
+    <button id="create"> Create New Client </button>
         <div id="alert-space"></div>
+        
         
         <div id="clientForm" class="d-none">
             
         
-            <input  id="vardas" class="form-control" placeholder="Įveskita vardą" />
+            <input id="vardas" class="form-control" placeholder="Įveskita vardą" />
             <input id="pavarde" class="form-control" placeholder="Įveskita pavardę" />
             <input id="teises_id" class="form-control" placeholder="Įveskita teisės id" />
+            
             <button id="createClient">Create</button>
         </div>
     

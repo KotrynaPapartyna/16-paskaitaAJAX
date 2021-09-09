@@ -16,7 +16,7 @@ if(mysqli_query($conn, $sql)) {
     echo '</div>';
 } else {
     echo '<div class="alert alert-danger" role="alert">';
-        echo "Kazkas ivyko negerai. Uzklausa nesekminga";
+        echo "Kažkas įvyko negerai. Užklausa yra nesėkminga";
     echo '</div>';    
 }
 
