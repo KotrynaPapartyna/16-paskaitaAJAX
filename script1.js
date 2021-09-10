@@ -1,7 +1,7 @@
 
 "use strict";
 
-//Kompanijoms
+//SCRIPTAS imonems. Veikia
 
 function showCompanies() {
     var xhttp = new XMLHttpRequest(); //objektas
