@@ -1,5 +1,6 @@
 <?php 
 
+// prisijungimas veikia. viskas ok 
 
 $duomenu_bazes_serveris = "localhost";
 $duomenu_bazes_slapyvardis = "root";
