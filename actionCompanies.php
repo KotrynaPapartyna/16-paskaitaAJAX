@@ -3,6 +3,8 @@
 
 <?php 
 
+// forma veikia
+
 echo '<table class="table table-striped">';
               
                 
