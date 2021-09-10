@@ -1,7 +1,7 @@
 <?php require_once("connection.php"); ?>
 
 <?php 
-
+// VEIKSMAS SUTVARKYTAS
 echo '<table class="table table-striped">';
               
                 
