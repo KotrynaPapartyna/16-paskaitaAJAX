@@ -1,5 +1,6 @@
 "use strict";
 
+// scriptas- KLIENTAMS- VEIKIA
 
 //tas mygtukas paspaudimo metu isvestu informacija 
 //i console log
