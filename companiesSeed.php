@@ -13,7 +13,10 @@
     </form>
     <?php 
 
+   
     require_once("connection.php");
+
+     // mygtuko paspaudimu prisideda 200 imoniu
 
     if(isset($_GET["submit"])) {
         for ($i=0; $i<200; $i++) {
