@@ -1,9 +1,9 @@
 "use strict";
 
-// vartotojams// 
+//Kompanijoms
 
 function showUsers() {
-    var xhttp = new XMLHttpRequest(); 
+    var xhttp = new XMLHttpRequest(); //objektas
 
     xhttp.onreadystatechange = function() {
         if(this.readyState == 4 && this.status == 200) {
@@ -17,13 +17,15 @@ function showUsers() {
 
 
 document.querySelector("#user_create").addEventListener("click", function() {
+    //pasirinkti elementa kuri norime slepti/parodyti
+    //uzteti funkcija togle, kur mums uzdeda/prideda "d-none" klase
     
     var userForm = document.querySelector(".userForm");
     userForm.classList.toggle("d-none");
 
 });
 
-document.querySelector("#createUser").addEventListener("click", function() { 
+document.querySelector("#createUser").addEventListener ("click", function() { 
     var vardas = document.querySelector("#vardas").value;
     var pavarde = document.querySelector("#pavarde").value;
     var slapyvardis = document.querySelector("#slapyvardis").value;
@@ -32,7 +34,7 @@ document.querySelector("#createUser").addEventListener("click", function() {
 
     xhttp.onreadystatechange = function() {
         if(this.readyState == 4 && this.status == 200) {
-            document.querySelector("#alert-space").innerHTML = this.responseText; 
+            document.querySelector("#alert-space").innerHTML = this.responseText; // 
         }
     };
     

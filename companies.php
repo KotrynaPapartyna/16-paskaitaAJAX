@@ -51,6 +51,7 @@
                 $result = $conn->query($sql);
 
                 while($companies = mysqli_fetch_array($result)) {
+                    
                     echo "<tr>";
                         echo "<td>".$companies["ID"]."</td>";
                         echo "<td>".$companies["imones_pavadinimas"]."</td>";

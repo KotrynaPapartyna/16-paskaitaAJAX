@@ -5,9 +5,9 @@
 echo '<table class="table table-striped">';
               
                 
-    $sql = "SELECT 'ID', 'vardas','pavarde', 'slapyvardis'   
+    $sql = "SELECT `ID`, `vardas`, `pavarde`, `slapyvardis` 
     FROM `vartotojaiajax` 
-    WHERE 1 
+    WHERE 1
     ORDER BY vartotojaiajax.ID DESC";
 
     $result = $conn->query($sql);
@@ -19,7 +19,7 @@ echo '<table class="table table-striped">';
             echo "<td>".$users["pavarde"]."</td>";
             echo "<td>".$users["slapyvardis"]."</td>";
         echo "</tr>";
-    }          
+    }         
             
 
 echo '</table>';
