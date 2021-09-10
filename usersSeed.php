@@ -13,7 +13,7 @@
     </form>
     <?php 
 
-    // vartotojai prisideda
+    // vartotojai prisideda- 200 vnt 
 
     require_once("connection.php");
 
