@@ -1,6 +1,7 @@
 "use strict";
 
-//Kompanijoms
+//Vartotojams- neveikia. Paziureti kodel 
+// rodoma klaida - 20 eiluteje 
 
 function showUsers() {
     var xhttp = new XMLHttpRequest(); //objektas
@@ -25,7 +26,7 @@ document.querySelector("#user_create").addEventListener("click", function() {
 
 });
 
-document.querySelector("#createUser").addEventListener ("click", function() { 
+document.querySelector("#createUser").addEventListener("click", function() { 
     var vardas = document.querySelector("#vardas").value;
     var pavarde = document.querySelector("#pavarde").value;
     var slapyvardis = document.querySelector("#slapyvardis").value;
