@@ -6,8 +6,7 @@ $pavadinimas = $_GET["pavadinimas"];
 $aprasymas = $_GET["aprasymas"];
 $tipas_id = intval($_GET["tipas_id"]);
 
-
-//MEs galime daryt ka norim t.y vykdyti INSERT sql uzklausa
+// imone prisideda, rodoma is karto 
 
 $sql = "INSERT INTO `imones`(`pavadinimas`, `aprasymas`, `tipas_id`) 
 VALUES ('$pavadinimas','$aprasymas',$tipas_id)";
