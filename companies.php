@@ -12,13 +12,10 @@
 
 </head>
 <body>
+
+    <!-- viskas atvaizduojama tvarkingai-->
+
     <div class="container">
-
-        <?php 
-        //sukurti mygtuka, kuris iskleistu imoniu pridejimo forma ir ta forma naudodama AJAX pridetu nauja imone
-        //bei ja parodytu lenteleje
-        ?>
-
 
         <div id="alert-space">
 
