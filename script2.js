@@ -23,7 +23,6 @@ document.querySelector("#user_create").addEventListener("click", function() {
     
     var userForm = document.querySelector(".userForm");
     userForm.classList.toggle("d-none");
-
 });
 
 document.querySelector("#createUser").addEventListener("click", function() { 
