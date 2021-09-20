@@ -20,7 +20,7 @@
 
         <button id="user_create">Create New User</button>
         
-        <div class=".userForm d-none">
+        <div class="userForm d-none">
             <input  id="vardas" class="form-control" placeholder="Įveskite vardą" />
             <input id="pavarde" class="form-control" placeholder="Įveskite pavardę" />
             <input id="slapyvardis" class="form-control" placeholder="Įveskite slapyvardį" />
